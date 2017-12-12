@@ -1,3 +1,8 @@
+---
+layout: page
+title: Sample
+permalink: /sample/
+---
 # A Sample
 
 This is a sample file.
