@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
-# About Me
 ![Eyes!](/favicon.ico)
 
 I am a freelance programmer and a mother of two with a passion for great food.
