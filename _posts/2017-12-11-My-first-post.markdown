@@ -8,5 +8,5 @@ categories: jekyll update
 # Hello World 
 
 ## Hi, There!
-  This is website being built. For now check-out a [sample](sample).
+  This is website being built. For now check-out a [sample](/sample/).
 
