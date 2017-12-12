@@ -1,0 +1,10 @@
+
+refer to posts about dockerizing and docker-composing dev env and its benefits.
+
+docker container dev env for jekyll
+
+How jekyll chaged uid of mounted volume to 1000
+it was because local id of jekyll was 1000. One more reason not to run it as root.
+q: if I had docker run -u $(id -u):$(id -g) would chown have failed ?
+
+
