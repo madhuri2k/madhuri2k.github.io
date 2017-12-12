@@ -1,0 +1,11 @@
+export JEKYLL_VERSION=3.5
+
+chromium-browser --kiosk http://localhost:4000/ &
+
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -e JEKYLL_UID=$(id -u) -e JEKYLL_GID=$(id -g) \
+  -p 35729:35729 -p 4000:4000 \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll serve
+
