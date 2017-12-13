@@ -37,13 +37,13 @@ For that, I needed a solution that is ...
 [these]: https://evanwill.github.io
 [out]: https://software-carpentry.org
 
-When it comes to building the site Github pages has [a few options](https://github.com/madhuri2k/experience-experiment/blob/gh-pages/README.md#github-pages) and I will focus here on using jekyll to create website from markdown files. This is because... it's how [this site](https://github.com/madhuri2k/madhuri2k.github.io) is built.
+When it comes to building the site, Github pages has [a few options](https://github.com/madhuri2k/experience-experiment/blob/gh-pages/README.md#github-pages) and I will focus here on using jekyll to create website from markdown files. This is because... it's how [this site](https://github.com/madhuri2k/madhuri2k.github.io) is built.
 
 ## Setting up Jekyll
 
 There are tons of great resources on jekyll and its battle-tested ecosystem of plugins. I especially found this [site] & [video] very useful for my setup.
 
-Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course 😃😄) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
+Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course 😄) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
 
 {% highlight bash %}
 
@@ -59,7 +59,7 @@ docker run --rm \
   jekyll serve
 {% endhighlight %}
 
-The very first time it will download the entire image (~150MB) from the docker registry but next time onwards everything is local. Having this running in the background makes it very quick to make an edit (, wait 0.12s for site to be auto-regenerated) and refresh the browser to see changes. Splendid!
+During the very first run it will download the entire image (~150MB) from the docker registry, but next time onwards, no internet connection needed. Having this running in the background makes it very quick to make edits (, wait 0.2s for site to be auto-regenerated) and refresh the browser to see changes. Splendid!
 
 Here's a screenshot of my workflow in action:
 [![Edit Deploy in a whiff! Screenshot](https://i.imgur.com/rfQMd5l.png)](https://i.imgur.com/rfQMd5l.png)
@@ -79,9 +79,9 @@ That's it! It was up and running ready to blog away!
 
 > You can try these steps right now and get a copy of this website running on your computer! Go ahead, try it!
 
-I have found this really productive and easy to setup & maintain. When I am happy with the updates I commit and push the chages to remote. The site gets regenerated roughly within 1 minute. Of course instead of jekyll & markdown, you can also use a static site built entirely on HTML5 and CSS.
+I have found this really productive and easy to setup & maintain. When I am happy with the updates I commit and push the chages to be published online. The site gets regenerated roughly within 1 minute. Of course, instead of jekyll & markdown, you can also use a static site built entirely on HTML5 and CSS.
 
-## Jekyll Themes
+## Jekyll Themes - Pages Themes vs Standard
 
 While using Jekyll, you have an option of using the built-in [theme-chooser] or using a gem-based theme like minima and plugins to generate the site. 
 
@@ -97,7 +97,7 @@ If you have your blog setup with minima and then change to using theme-chooser a
 
 ## Conclusion
 
-So that was an account of my journey of setting this up. In github pages I found the right mix of ease-of-use and flexibility. Github always puts a lot of thought and customer-focus on everything they do and Pages is no exception. The fact that it's free makes it all the more attractive to try-out and bring into the being the awesome web-site or blog that is inside of you.
+So that was an account of my journey of setting this up. In [Github Pages] I found the right mix of ease-of-use and flexibility. Github always puts a lot of thought and customer-focus on everything they do and Pages is no exception. The fact that it's free makes it all the more attractive to try-out and bring into the being the awesome web-site or blog that is inside of you.
 
 This post would have met its goal if it makes you want to build your blog (or fork mine) or helps you along the way. Reach out to me with you questions and comments.
 
