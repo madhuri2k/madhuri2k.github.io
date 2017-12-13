@@ -43,7 +43,7 @@ When it comes to building the site Github pages has [a few options](https://gith
 
 There are tons of great resources on jekyll and its battle-tested ecosystem of plugins. I especially found this [site] & [video] very useful for my setup.
 
-Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course :smile: ) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
+Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course 😃😄) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
 
 {% highlight bash %}
 
