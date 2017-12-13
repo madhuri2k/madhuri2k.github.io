@@ -66,7 +66,7 @@ Here's a screenshot of my workflow in action:
 
 Of course I had to see if this really works so this morning I booted up an old system running a recent update of [manjaro xfce](https://manjaro.org) and 
 1. I [installed docker] and did post-install [steps](1) (adding user to docker group, enable  docker daemon and `sudo systemctl start docker`)
-2. Clone my repo: `git clone htps://github.com/madhuri2k/madhuri2k.github.io.git`
+2. Clone my repo: `git clone https://github.com/madhuri2k/madhuri2k.github.io.git`
 3. Run: `cd madhuri2k.github.io && bin/run`
 
 [aite]: https://evanwill.github.io/go-go-ghpages/
@@ -76,7 +76,7 @@ Of course I had to see if this really works so this morning I booted up an old s
 
 That's it! 
 
-> You can try these steps right now and get a copy of this website running on your computer
+> You can try these steps right now and get a copy of this website running on your computer!
 
 I have found this really productive and easy to setup & maintain. When I am happy with the updates I commit and push the chages to remote. The site gets regenerated roughly within 1 minute. Of course instead of jekyll & markdown, you can also use a static site built entirely on HTML5 and CSS.
 
@@ -100,4 +100,4 @@ So that was an account of my journey of setting this up. In github pages I found
 
 This post would have met its goal if it makes you want to build your blog (or fork mine) or helps you along the way. Reach out to me with you questions and comments.
 
-Good Luck!
+**Good Luck!**
