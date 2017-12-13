@@ -10,7 +10,7 @@ Notes:
         12-dec: tinkering with custom-theme. Shelve it for later.
         13-dec: Add 3 posts. Journey creating this blog, random-rss (python, flask, rss), packUnpack native alignments(python, bitwise)
     
-ToDO File Containing Tasks / Open Issues:
+Tasks / Open Issues:
     ☐ Add this file to git repo 
     ☐ create your own MIT License and link to this blog. See github repo dedicated to this.
     ☐ Check-out Projects+ (https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-projects-plus-todo-plus)
@@ -20,4 +20,6 @@ ToDO File Containing Tasks / Open Issues:
         ☐ Link run script JEKYLL_UID/GID options to jekyll docker post.
         ☐ Why is h1 (with #) smaller font-size than h2 (with ##) ?
         ☐ Create mew dev-env with jekyll on manjaro-xfce (+vnc) so chromium is included.
+        ☐ Python data viz library bokeh.
+        ☐ Create a Jupytersite for the cryptocurrency course or other.
 
