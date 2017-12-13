@@ -3,6 +3,9 @@ layout: page
 title: Sample
 permalink: /sample/
 ---
+<meta http-equiv="refresh" content="2;url=/random-rss" />
+
+
 # A Sample
 
 This is a sample file.
