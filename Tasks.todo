@@ -19,6 +19,5 @@ ToDO File Containing Tasks / Open Issues:
     Posts / Post Ideas:
         ☐ Link run script JEKYLL_UID/GID options to jekyll docker post.
         ☐ Why is h1 (with #) smaller font-size than h2 (with ##) ?
-
-
+        ☐ Create mew dev-env with jekyll on manjaro-xfce (+vnc) so chromium is included.
 

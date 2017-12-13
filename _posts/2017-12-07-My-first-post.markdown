@@ -15,7 +15,7 @@ It wasn't until last friday that I actually got to thinking about it seriously! 
 
 ## Motivation
 
-Main motivations to create this were...
+In creating this site, my main motivations were...
 1. To share tips/ tricks I have learned over the course of my projects and work in my [areas of interest](/about)
 1. To showcase specific projects, software, art I created or was inspired by
 1. Share my experiences as a freelancer, contractor, employee so it may benefit anyone in a similar stage in their life.
@@ -30,20 +30,20 @@ To be able to do that I needed a solution that is ...
 
 ## Why Github-pages ?
 
-[Github Pages] meets almost all of my requirements and more (I'm still learning what **all** it can do!). It is definitely developer friendly, fast, available, search-engine friendly and uses markdown which is the greatest tool for writers to present good-looking content without having to obsess with formatting it for hours (or days). Github-pages also provides options for making stunning sites with very little effort by leveraging years of accumulated "wisdom" - more on that later ([Check], [these], [out] if you don't believe me).
+[Github Pages] meets almost all of my requirements and more (I'm still learning what **all** it can do!). It is definitely developer friendly, fast, available, search-engine friendly and uses markdown which is the greatest tool for writers to present good-looking content without having to obsess with formatting. Github-pages also provides options for making stunning sites with very little effort by leveraging years of accumulated "wisdom" - more on that later ([Check], [these], [out] if you don't believe me).
 
 [Github Pages]: https://pages.github.com
 [Check]: https://programminghistorian.org/
 [these]: https://evanwill.github.io
 [out]: https://software-carpentry.org
 
-Github pages has [lots of options](https://github.com/madhuri2k/experience-experiment/blob/gh-pages/README.md#github-pages) and I will focus here on using jekyll to create website from markdown files. This is because... it's how [this site](https://github.com/madhuri2k/madhuri2k.github.io) is built.
+When it comes to building the site Github pages has [a few options](https://github.com/madhuri2k/experience-experiment/blob/gh-pages/README.md#github-pages) and I will focus here on using jekyll to create website from markdown files. This is because... it's how [this site](https://github.com/madhuri2k/madhuri2k.github.io) is built.
 
 ## Setting up Jekyll
 
-There are tons of great resources of jekyll and its battle-tested ecosystem of plugins. I especially found this [site] & [video] very useful. 
+There are tons of great resources on jekyll and its battle-tested ecosystem of plugins. I especially found this [site] & [video] very useful for my setup.
 
-Although github is totally usable on web, hacking the site locally will be much faster since it can leverage my familiar tools (text editor, image editor etc) and keep it available offline (great way to write without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker][https://www.docker.com/] to satisy my #1 goal (cross-platform portability). There is (of course) an official docker image for jekyll and the script below will fetch and deploy my site on it. A similar batch file does the job on windows.
+Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
 
 {% highlight bash %}
 
@@ -64,19 +64,20 @@ The very first time it will download the entire image (~150MB) from the docker r
 Here's a screenshot of my workflow in action:
 [![Edit Deploy in a whiff! Screenshot](https://i.imgur.com/rfQMd5l.png)](https://i.imgur.com/rfQMd5l.png)
 
-Of course I had to see if this really works so this morning I booted up an old system running a recent update of [manjaro xfce](https://manjaro.org) and 
+Of course I had to see if this really works so this morning I booted up an old system running a recent update of [manjaro xfce](https://manjaro.org) and performed below steps.
 1. I [installed docker] and did post-install [steps](1) (adding user to docker group, enable  docker daemon and `sudo systemctl start docker`)
 2. Clone my repo: `git clone https://github.com/madhuri2k/madhuri2k.github.io.git`
 3. Run: `cd madhuri2k.github.io && bin/run`
 
-[aite]: https://evanwill.github.io/go-go-ghpages/
+[site]: https://evanwill.github.io/go-go-ghpages/
 [video]: https://www.youtube.com/watch?v=SWVjQsvQocA
+[docker]: https://www.docker.com/
 [installed docker]: https://docs.docker.com/engine/installation/
 [1]: https://docs.docker.com/engine/installation/linux/linux-postinstall/
 
-That's it! 
+That's it! It was up and running ready to blog away!
 
-> You can try these steps right now and get a copy of this website running on your computer!
+> You can try these steps right now and get a copy of this website running on your computer! Go ahead, try it!
 
 I have found this really productive and easy to setup & maintain. When I am happy with the updates I commit and push the chages to remote. The site gets regenerated roughly within 1 minute. Of course instead of jekyll & markdown, you can also use a static site built entirely on HTML5 and CSS.
 
