@@ -7,7 +7,7 @@ categories: jekyll update blog
 
 ## Hi, There!
 
-Somewhere in the last 2 weeks, I felt that I needed a website... on github. In fact after looking at [Github Pages], I felt closer to achieving my long-term desire of having a website/blog where I can share things of interest to myself and engaging like-minded audience.
+Somewhere in the last 2 weeks, I felt that I needed a website... on github. In fact after looking at [Github Pages], I felt closer to achieving my long-term desire of having a website/blog where I can share things of interest to myself and engage with like-minded audience.
 
 It wasn't until last friday that I actually got to thinking about it seriously! and it wasn't until yesterday that it actually came into being. This is a short story of the motivations behind making this blog and learning in the process of creating it. 
 
@@ -16,15 +16,15 @@ It wasn't until last friday that I actually got to thinking about it seriously! 
 ## Motivation
 
 In creating this site, my main motivations were...
-1. To share tips/ tricks I have learned over the course of my projects and work in my [areas of interest](/about)
-1. To showcase specific projects, software, art I created or was inspired by
-1. Share my experiences as a freelancer, contractor, employee so it may benefit anyone in a similar stage in their life.
-1. Give my writing muscles some wear. Writing generally helps me make sense of what's happenning, organize my thoughts and calms me.
-1. ... and to able to achieve all of that without having to spend a ton of time and money.
+1. To share tips/ tricks I have learned over the course of my projects and work in my [areas of interest](/about).
+1. To showcase specific projects, software, art I created or was inspired by.
+1. Share my experiences as a freelancer, contractor, developer so it may benefit anyone in a similar stage in their life.
+1. Give my writing muscles some wear (Writing generally helps me make sense of what's happenning, organize my thoughts and calms me.).
+1. ... and to able to do all of that without having to spend a ton of time and money.
 
-To be able to do that I needed a solution that is ...
-1. Easy to setup and move between different platforms. I work on diverse systems from my iPad/ Phone to my laptop running windows and desktop running linux. Whatever was my blogging solution needed to be cross-platform.
-2. Maximum focus on writing and minimum on formatting/ beautifying. Although the end-result (to be useful) should pass for good-looking.
+For that, I needed a solution that is ...
+1. Easy to setup and move between different platforms. I work on diverse systems, from my iPad/ Phone to my laptop running windows and desktop running linux. Whatever was my blogging solution needed to be cross-platform.
+2. Maximum focus on writing and minimum on formatting/ beautifying. Although the end-result, to be useful, should pass for good-looking.
 3. High availability and throughput and able to scale with my needs. Fast and responsive so reader can focus on content. Search engine friendly - the whole point of writing this is to be found by those with the need for this information.
 4. Since bulk of the content is expected to be technical it should be developer-friendly (basically this means syntax-highlighting for code, able to insert graphs/ charts/ media, etc.)
 
@@ -43,7 +43,7 @@ When it comes to building the site Github pages has [a few options](https://gith
 
 There are tons of great resources on jekyll and its battle-tested ecosystem of plugins. I especially found this [site] & [video] very useful for my setup.
 
-Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
+Although github is totally usable on web, hacking the site locally will be much faster since I can leverage familiar tools and write offline (without distractions). So I needed to install jekyll locally. Instead of installing it on my computer, I decided to use [docker] to satisy my #1 goal (cross-platform portability). There is an official docker image for jekyll (of course :smile: ) and all I needed to write was the script below to fetch it and deploy my site on it. A similar batch file does the job on windows.
 
 {% highlight bash %}
 
