@@ -18,13 +18,7 @@ I am interested in
 
 ## Programming interests
 1. Python
-2. Cloud & Web Tech
-4. Git* 
+2. Cloud & Web Tech (Docker, Kubernetes, AWS)
+4. Everythin Git
 3. C++
 
-
-
-[![Great video](http://img.youtube.com/vi/BCQHnlnPusY/0.jpg)](https://www.youtube.com/watch?v=BCQHnlnPusY)
-
-Do you see eyes ?
-[![pic](https://pre00.deviantart.net/d3ed/th/pre/f/2017/341/c/b/evolution_by_ryky-dbw0nqy.png)](http://fav.me/dbw0nqy)

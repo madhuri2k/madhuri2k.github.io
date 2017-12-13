@@ -1,0 +1,24 @@
+
+This file is maintained using vscode-todotasks extension (https://github.com/sandy081/vscode-todotasks).
+
+Notes:
+    Key dates:
+        01-dec: finally decided to get on with the blog on gh-pages
+        03-dec: Started working on it. noting down learnings... 
+        07-dec: Did some experimental repo's & sites. Settled on vanilla jekyll after about 20h on it.
+        11-dec: madhuri2k.gihub.io is up with boilerplate posts.
+        12-dec: tinkering with custom-theme. Shelve it for later.
+        13-dec: Add 3 posts. Journey creating this blog, random-rss (python, flask, rss), packUnpack native alignments(python, bitwise)
+    
+ToDO File Containing Tasks / Open Issues:
+    ☐ Add this file to git repo 
+    ☐ create your own MIT License and link to this blog. See github repo dedicated to this.
+    ☐ Check-out Projects+ (https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-projects-plus-todo-plus)
+    ☐ In My-first-post.markdown add links to "tons of jekyll resources".
+    ☐ Replace links to youtube etc with affiliate links.
+    Posts / Post Ideas:
+        ☐ Link run script JEKYLL_UID/GID options to jekyll docker post.
+        ☐ Why is h1 (with #) smaller font-size than h2 (with ##) ?
+
+
+
