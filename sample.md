@@ -8,7 +8,7 @@ permalink: /sample/
 
 # A Sample
 
-This is a sample file.
+This is a sample file only. It's just for example...
 
 As of now this is just a markdown reference of sorts. Do you see how # is smaller than ## ?
 
